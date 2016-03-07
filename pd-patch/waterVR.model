@@ -1,0 +1,47 @@
+SVM_MODEL_FILE_V2.0
+Trained: 1
+UseScaling: 1
+NumInputDimensions: 3
+NumOutputDimensions: 0
+NumTrainingIterationsToConverge: 0
+MinNumEpochs: 0
+MaxNumEpochs: 100
+ValidationSetSize: 20
+LearningRate: 0.1
+MinChange: 1e-05
+UseValidationSet: 0
+RandomiseTrainingOrder: 1
+UseNullRejection: 0
+ClassifierMode: 0
+NullRejectionCoeff: 5
+NumClasses: 2
+NullRejectionThresholds:  0 0
+ClassLabels:  1 2
+Ranges: 
+-13212	10192
+-18100	22308
+-8652	19620
+ModelType: C_SVC
+KernelType: LINEAR
+Degree: 3
+Gamma: 0.333333
+Coef0: 0
+NumberOfFeatures: 3
+UseShrinking: 1
+UseProbability: 1
+NumberOfSupportVectors: 4
+RHO: 
+0.0301045	
+Label: 
+1	2	
+ProbA: 
+-3.9495	
+ProbB: 
+-0.0595378	
+NumSupportVectorsPerClass: 
+2	2	
+SupportVectors: 
+0.338316	1	-0.4671	2	-0.688577	3	0.109508	
+0.665104	1	-0.669458	2	-0.0944367	3	0.479061	
+-0.924983	1	0.192275	2	0.535142	3	-0.46944	
+-0.0784373	1	0.793881	2	0.0372204	3	-0.331919	
